@@ -1,0 +1,21 @@
+{
+  "name": "depth_tensorflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "inference": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tensorflow-models/body-segmentation": "^1.0.1",
+    "@tensorflow-models/depth-estimation": "^0.0.3",
+    "@tensorflow/tfjs": "^3.20.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.20.0",
+    "@tensorflow/tfjs-converter": "^3.20.0",
+    "@tensorflow/tfjs-core": "^3.20.0",
+    "images": "^3.2.4"
+  }
+}
