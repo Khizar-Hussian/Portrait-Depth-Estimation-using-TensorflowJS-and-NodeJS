@@ -2,9 +2,10 @@
   "name": "depth_tensorflow",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "inference.js",
   "scripts": {
-    "inference": "node index.js"
+    "inference": "node inference.js",
+    "generateMap": "node generateDepthMap.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,8 @@
     "@tensorflow/tfjs-backend-webgl": "^3.20.0",
     "@tensorflow/tfjs-converter": "^3.20.0",
     "@tensorflow/tfjs-core": "^3.20.0",
+    "@tensorflow/tfjs-node": "^3.20.0",
     "images": "^3.2.4"
+
   }
 }
